@@ -1,6 +1,6 @@
 # KeychainX
 
-[![CI Status](https://img.shields.io/travis/fakerlogic/KeychainX.svg?style=flat)](https://travis-ci.org/fakerlogic/KeychainX)
+[![CI Status](https://img.shields.io/travis/fakerlogic/KeychainX.svg?style=flat)](https://travis-ci.org/SwiftMM/KeychainX)
 [![Version](https://img.shields.io/cocoapods/v/KeychainX.svg?style=flat)](https://cocoapods.org/pods/KeychainX)
 [![License](https://img.shields.io/cocoapods/l/KeychainX.svg?style=flat)](https://cocoapods.org/pods/KeychainX)
 [![Platform](https://img.shields.io/cocoapods/p/KeychainX.svg?style=flat)](https://cocoapods.org/pods/KeychainX)

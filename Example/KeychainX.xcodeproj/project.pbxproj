@@ -15,6 +15,7 @@
 		607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 607FACDE1AFB9204008FA782 /* LaunchScreen.xib */; };
 		607FACEC1AFB9204008FA782 /* Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACEB1AFB9204008FA782 /* Tests.swift */; };
 		8D4B0C853EEB858CB92D8E3F /* Pods_KeychainX_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FF057176442B412504FB74A4 /* Pods_KeychainX_Example.framework */; };
+		D34FC6A5230A7D6E00D87970 /* KeychainXTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D34FC6A4230A7D6E00D87970 /* KeychainXTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +47,7 @@
 		84BBCDDDF01D304D655FF196 /* Pods-KeychainX_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-KeychainX_Tests.debug.xcconfig"; path = "Target Support Files/Pods-KeychainX_Tests/Pods-KeychainX_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		B9183614DC15E1B19C5BC9F6 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		D29FB7CB025298768B83A7A1 /* KeychainX.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = KeychainX.podspec; path = ../KeychainX.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		D34FC6A4230A7D6E00D87970 /* KeychainXTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeychainXTests.swift; sourceTree = "<group>"; };
 		FF057176442B412504FB74A4 /* Pods_KeychainX_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_KeychainX_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -116,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				607FACEB1AFB9204008FA782 /* Tests.swift */,
+				D34FC6A4230A7D6E00D87970 /* KeychainXTests.swift */,
 				607FACE91AFB9204008FA782 /* Supporting Files */,
 			);
 			path = Tests;
@@ -332,6 +335,7 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				D34FC6A5230A7D6E00D87970 /* KeychainXTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'KeychainX'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of KeychainX.'
+  s.summary          = 'KeychainX is a light weight wrapper for iOS keychain.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -17,21 +17,21 @@ Pod::Spec.new do |s|
 #   * Write the description between the DESC delimiters below.
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
-  s.description      = <<-DESC
-TODO: Add long description of the pod here.
-                       DESC
+#  s.description      = 'KeychainX is a light weight wrapper for iOS keychain.  '
 
-  s.homepage         = 'https://github.com/fakerlogic/KeychainX'
+  s.homepage         = 'https://github.com/SwiftMM/KeychainX'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'fakerlogic' => '446463229@qq.com' }
-  s.source           = { :git => 'https://github.com/fakerlogic/KeychainX.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/SwiftMM/KeychainX.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '10.0'
 
   s.source_files = 'KeychainX/Classes/**/*'
   
+  s.swift_version         = '5.0'
+  s.frameworks = 'Foundation'
   # s.resource_bundles = {
   #   'KeychainX' => ['KeychainX/Assets/*.png']
   # }

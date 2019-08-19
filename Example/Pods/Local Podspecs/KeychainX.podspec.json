@@ -1,0 +1,22 @@
+{
+  "name": "KeychainX",
+  "version": "0.1.0",
+  "summary": "A short description of KeychainX.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/fakerlogic/KeychainX",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "fakerlogic": "446463229@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/fakerlogic/KeychainX.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "10.0"
+  },
+  "source_files": "KeychainX/Classes/**/*"
+}
